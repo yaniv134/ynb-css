@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>כותרות מונפשות</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="headline-animation.css">
+  <script src="animation.js" defer></script>
+</head>
+<body>
+  <div class="headline-wrapper" id="headline"></div>
+</body>
+</html>
