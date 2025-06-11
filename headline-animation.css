@@ -1,21 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
 
-.animated-headline {
+.headline-wrapper {
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+
+.animated-headline,
+.animated-headline-2 {
   font-family: 'Assistant', sans-serif;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   color: #c0946a;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #c0946a;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 0;
-  animation: typingLoop 2s steps(44) infinite;
-  animation-delay: 0.5s;
 }
 
-@keyframes typingLoop {
+.animated-headline {
+  animation: typing1 1s steps(44) infinite;
+}
+
+.animated-headline-2 {
+  animation: typing2 6s steps(38) infinite;
+  animation-delay: 1s;
+}
+
+@keyframes typing1 {
   0%   { width: 0 }
   40%  { width: 44ch }
   60%  { width: 44ch }
+  100% { width: 0 }
+}
+
+@keyframes typing2 {
+  0%   { width: 0 }
+  40%  { width: 38ch }
+  60%  { width: 38ch }
   100% { width: 0 }
 }
