@@ -2,11 +2,12 @@
 
 body {
   font-family: 'Assistant', sans-serif;
-  background-color: #f9f9f9;
+  background-color: #ffffff; /* לבן רגיל */
   text-align: center;
   direction: rtl;
   padding-top: 100px;
 }
+
 
 .headline-wrapper {
   font-size: 32px;
