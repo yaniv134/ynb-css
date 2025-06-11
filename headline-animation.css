@@ -9,7 +9,7 @@
   overflow: hidden;
   border-right: 2px solid #c0946a;
   width: 0;
-  animation: typingLoop 6s steps(44) infinite;
+  animation: typingLoop 2s steps(44) infinite;
   animation-delay: 0.5s;
 }
 
