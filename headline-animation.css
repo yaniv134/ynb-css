@@ -10,7 +10,7 @@
   border-right: 2px solid #c0946a;
   width: 0;
   animation: typingLoop 5s steps(44) infinite;
-  animation-delay: 1s; /* שיהיה דיליי קטן אחרי טעינת העמוד */
+  animation-delay: 0.5s; /* השהיה לפני תחילת האנימציה */
 }
 
 @keyframes typingLoop {
