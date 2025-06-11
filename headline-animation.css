@@ -9,13 +9,13 @@
   overflow: hidden;
   border-right: 2px solid #c0946a;
   width: 0;
-  animation: typingLoop 5s steps(44) infinite;
-  animation-delay: 4.5s; /* השהיה לפני תחילת האנימציה */
+  animation: typingLoop 6s steps(44) infinite;
+  animation-delay: 0.5s;
 }
 
 @keyframes typingLoop {
   0%   { width: 0 }
-  40%  { width: 100% }
-  60%  { width: 100% }
+  40%  { width: 44ch }
+  60%  { width: 44ch }
   100% { width: 0 }
 }
