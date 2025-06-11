@@ -10,12 +10,15 @@
   overflow: hidden;
   border-right: 2px solid #c0946a;
   width: 0;
-  animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+  animation: typing 3s steps(30, end) 1s forwards, blink 0.75s step-end infinite;
+  animation-iteration-count: infinite; /* חזרה אינסופית */
+  animation-fill-mode: both;           /* שמירה על המצב הסופי */
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  0%   { width: 0 }
+  80%  { width: 100% }
+  100% { width: 0 } /* נסגר אחרי הכתיבה */
 }
 
 @keyframes blink {
