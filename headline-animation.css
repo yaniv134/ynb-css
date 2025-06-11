@@ -22,7 +22,7 @@
 }
 
 .animated-headline {
-  animation: typing1 1s steps(44) infinite;
+  animation: typing1 3s steps(44) infinite;
 }
 
 .animated-headline-2 {
